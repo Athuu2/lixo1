@@ -37,7 +37,6 @@ struct TriggerBot {
             weaponId != WEAPON_TRIPLE_TAKE &&
             weaponId != WEAPON_BOCEK &&
             weaponId != WEAPON_NEMESIS &&
-            weaponId != WEAPON_THROWING_KNIFE
             )return;
 
         //max range changes based on if we are zoomed in or not
