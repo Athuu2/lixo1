@@ -6,7 +6,6 @@ constexpr long OFF_REGION = 0x140000000; //[Static]->Region
 constexpr long OFF_LEVEL = 0x16f9140; //[Miscellaneous]->LevelName
 constexpr long OFF_LOCAL_PLAYER = 0x2182c78; //[Miscellaneous]->LocalPlayer
 constexpr long OFF_ENTITY_LIST = 0x1DD4178; //[Miscellaneous]->cl_entitylist
-constexpr long OFF_GLOBAL_VARS = 0x16f8c40; //[Miscellaneous]->GlobalVars
 
 // Buttons
 constexpr long OFF_IN_ATTACK = 0x073f2798; //[Buttons]->in_attack
@@ -15,7 +14,6 @@ constexpr long OFF_IN_DUCK = 0x073f2978; //[Buttons]->in_duck
 constexpr long OFFSET_IN_FORWARD = 0x073f26c8; //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2af0; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
 constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2aec; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
-constexpr long OFFSET_TRAVERSAL_RELEASE_TIME = 0x2af8;		   //[RecvTable.DT_LocalPlayerExclusive]->m_traversalReleaseTime
 constexpr long OFFSET_WALL_RUN_START_TIME = 0x3584; //[RecvTable.DT_LocalPlayerExclusive]->m_wallRunStartTime
 constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3588; //RecvTable.DT_LocalPlayerExclusive]->m_wallRunClearTime
 
