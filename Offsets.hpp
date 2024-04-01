@@ -3,14 +3,14 @@
 
 // Core
 constexpr long OFF_REGION = 0x140000000; //[Static]->Region
-constexpr long OFF_LEVEL = 0x16f9090; //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x2182bf8; //[Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1DD40F8; //[Miscellaneous]->cl_entitylist
-constexpr long OFF_GLOBAL_VARS = 0x16f8b90; //[Miscellaneous]->GlobalVars
+constexpr long OFF_LEVEL = 0x16f9140; //[Miscellaneous]->LevelName
+constexpr long OFF_LOCAL_PLAYER = 0x2182c78; //[Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1DD4178; //[Miscellaneous]->cl_entitylist
+constexpr long OFF_GLOBAL_VARS = 0x16f8c40; //[Miscellaneous]->GlobalVars
 
 // Buttons
 constexpr long OFF_IN_ATTACK = 0x073f2798; //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x073f2878; //[Buttons]->in_jump
+constexpr long OFF_IN_JUMP = 0x073f2890; //[Buttons]->in_jump
 constexpr long OFF_IN_DUCK = 0x073f2978; //[Buttons]->in_duck
 constexpr long OFFSET_IN_FORWARD = 0x073f26c8; //[Buttons]->in_forward
 constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2af0; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
@@ -21,7 +21,7 @@ constexpr long OFFSET_WALL_RUN_CLEAR_TIME = 0x3588; //RecvTable.DT_LocalPlayerEx
 
 // Player
 constexpr long OFF_VIEW_MATRIX = 0x11a350; //[RecvTable.DT_Player]->ViewMatrix 
-constexpr long OFF_VIEW_RENDER = 0x73f14f8; //[RecvTable.DT_Player]->ViewRender
+constexpr long OFF_VIEW_RENDER = 0x73f14f0; //[RecvTable.DT_Player]->ViewRender
 constexpr long OFF_VIEW_MODELS = 0x2d18; //[RecvTable.DT_Player]->m_hViewModels
 constexpr long OFF_ZOOMING = 0x1bd1; //[RecvTable.DT_Player]->m_bZooming
 constexpr long OFF_LOCAL_ORIGIN = 0x017c; //[DataMap.CBaseViewModel]->m_vecAbsOrigin
@@ -49,7 +49,7 @@ constexpr long OFF_XPLEVEL = 0x3694;   //m_xp
 
 // Weapon
 constexpr long OFF_WEAPON_HANDLE = 0x1934; //[RecvTable.DT_BaseCombatCharacter]->m_latestPrimaryWeapons
-constexpr long OFF_WEAPON_INDEX = 0x1778; //[RecvTable.DT_WeaponX]->m_weaponNameIndex
+constexpr long OFF_WEAPON_INDEX = 0x1564; //[RecvTable.DT_WeaponX]->m_weaponNameIndex
 constexpr long OFFSET_AMMO = 0x1580; //[DataMap.CWeaponX]->m_ammoInClip
 constexpr long OFF_GRENADE_HANDLE = 0x1944; //[RecvTable.DT_Player]->m_latestNonOffhandWeapons
 constexpr long OFF_SKIN = 0x0d58; //[RecvTable.DT_BaseAnimating]->m_nSkin
